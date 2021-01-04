@@ -1,0 +1,154 @@
+@font-face{
+    font-family: "glitch";
+    src:url("../font/glitch.otf.otf")
+    
+}
+@font-face{
+	font-family: "nasa";
+	src:url("../font/nasalization-rg.ttf")
+}
+body{
+	margin-left:50px;
+	margin-right: 50px;
+	font-size: 20px;
+	font-family: "nasa";
+	color: white;
+	background-image: url(../imagenes/fondo5.jpg);
+	background-color:black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	text-align: left;
+}
+nav{
+	background-color:darkred;
+	color:blueviolet;
+	width:100%;
+	height: 40px;
+	overflow:hidden;
+	opacity:1;
+	transition-duration:0.6s;   
+}
+nav:hover{
+	opacity:1;
+}
+ul{
+	margin:5px;
+}
+li{
+	float:left;
+	width: 18%;
+	text-align: center;
+	color:whitesmoke;
+	list-style: none;
+	margin-top:-30px;
+	transition-duration: 0.6s;
+}
+li:hover{
+	margin-top:15px;
+}
+.icon{
+	width: 30px;
+	height: 30px;
+}
+.capa_ico{
+	width: 100%;
+	height: 25px;
+	float:left;
+	text-align: center;
+	padding: 5px 0 5px 0;
+	cursor:pointer;
+	position:relative;
+	top:-20px;
+	
+}
+.uno{
+	font-family: "glitch";
+}
+.dos{
+	font-family: "glitch";
+}
+.tres{
+	font-family: "glitch";
+}
+.cuatro{
+	font-family: "glitch";
+}
+.cinco{
+	font-family: "glitch";
+}
+
+.letra{
+	font-family: "glitch";
+	font-size: 50px;
+	text-align: center;
+}
+img{
+	display: block;
+	margin: auto;
+	
+}
+.pc{
+	width: 430px;
+	height: 310px;
+	border: 3px red ridge;
+	border-radius: 10px;
+}
+iframe{
+	align-items:center;
+}
+.gente1{
+	
+	width: 200px;
+	height: 210px;
+	border: 3px red ridge;
+    border-radius: 10px;
+	padding: 1px;
+	float: left;
+	margin-left: 30px;
+}
+.gente2{
+	
+	width: 200px;
+	height: 210px;
+	border: 3px red ridge;
+    border-radius: 10px;
+	padding: 1px;
+	float: right;
+	margin-right: 30px;
+}
+.texto1{
+	text-align: left;
+	font-family: "nasa";
+	font-size: 20px;
+}
+.texto2{
+	text-align:right;
+	font-family: "nasa";
+	font-size: 20px;
+}
+.margen{
+	margin-left: 35px;
+}
+footer{
+	margin-left:50px;
+	margin-right: 50px;
+	font-size: 20px;
+	font-family: "nasa";
+	color: white;
+	text-align: center;
+}
+dl{
+	float: left;
+	margin-left: 30px;
+}
+.marcas{
+	margin-left: 65px;
+}
+.productos{
+	font-family:"glitch" ;
+	font-size: 30px;
+	text-align: center;
+}
+
